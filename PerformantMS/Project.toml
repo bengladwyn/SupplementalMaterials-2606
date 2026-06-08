@@ -1,0 +1,5 @@
+[deps]
+BSplineKit = "093aae92-e908-43d7-9660-e50ee39d5a0a"
+OrdinaryDiffEq = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
+NPZ = "15e1cf62-19b3-5cfa-8e77-841668bca605"
+JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
