@@ -1,0 +1,32 @@
+#Output
+outputfile = ./
+
+#Evolution
+expansion = true
+evolver = VV2
+
+#Lattice
+N = 64
+dt = 0.003
+kIR = 3
+
+#Times
+tOutputFreq = 0.1
+tOutputInfreq = 3
+tOutputRareFreq = 10
+tMax = 5000
+
+baseSeed = 42
+
+#IC
+initial_amplitudes = 2.0423e+18 0 # homogeneous amplitudes in GeV
+initial_momenta = -2.16757e+31 0    # homogeneous amplitudes in GeV2
+
+#Model Parameters
+M = 5.964e18
+Lambda4 = 8.648e63
+q = 3.5173400645e5
+
+#GWs
+GWprojectorType = 1
+withGWs=false
