@@ -1,0 +1,66 @@
+Parameters: 
+Important parameters:
+
+     tOutputRareFreq       100000              
+             kCutOff       inf                 
+                tMax       8000000             
+         tOutputFreq       1000                
+                  dt       100                 
+                   N       512                 
+             withGWs       false               
+             evolver       VV2                 
+           expansion       true                
+                 kIR       9.815569730831784e-07
+                  t0       0                   
+       tOutputInfreq       10000               
+
+
+Other parameters:
+
+           tolerance       -1                  
+       print_headers       false               
+           deltaKBin       1                   
+     fixedBackground       false               
+     energy_snapshot       ✖ ✖ ✖ ✖ ✖ ✖ ✖ ✖ ✖ ✖
+         tOutputVerb       10000               
+               hinit       3.73365369687465    
+                  a2       1.060941996188644385e-11
+                  a3       -6.364481211638128139e-12
+                  a4       4.994918780914509184e-13
+                  a5       2.205898393556930979e-13
+          PS_version       1                   
+                 a18       7.615709018231227599e-21
+                  a1       1.151641455785154264e-10
+       appendToFiles       false               
+ constraint_snapshot       ✖ ✖ ✖ ✖ ✖ ✖ ✖ ✖ ✖ ✖
+                 a11       -2.834770867143527836e-17
+     GWprojectorType       1                   
+         tBackupFreq       -1                  
+                  a7       9.853377102274280974e-15
+     initial_momenta       -3.0141567697420353e+31
+                 a15       1.262220811784524693e-19
+                  a6       -7.751450684069364736e-14
+          outputfile       ./                  
+                 a16       -1.915710465874620620e-19
+             PS_type       1                   
+                  a0       1.448871448407163465e-10
+  initial_amplitudes       9.091446751890607e+18
+                 a20       9.088024782623335882e-23
+         hdf5Spectra       false               
+                 a19       1.800535108462748645e-21
+             OccNumb       false               
+    spectraVerbosity       0                   
+                  a8       6.811738560652430358e-16
+                 a17       -2.841355241684441329e-20
+            baseSeed       3684417121          
+                 a13       1.688772118663289843e-18
+                 a12       -9.187620574873466658e-18
+               input       /home/gladwyn/CLInflation/Modified-cosmolattice-pert/src/models/parameter-files/pbh.in
+                 a10       1.790706624948002706e-16
+                 a14       1.560722092380006734e-18
+                  a9       -5.962820581684383518e-16
+
+The simulation started on the d8 m4 y2026 around h11m51.
+It will be running on a grid of (64,1,1) cores.The simulation finished on the d8 m4 y2026 around h19m43.
+The timer indicates that it ran for 28356.355s.
+As it ran on 64 cores, this corresponds to 504.113 core hours.

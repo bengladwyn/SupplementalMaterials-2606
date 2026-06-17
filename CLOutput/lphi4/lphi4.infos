@@ -1,0 +1,46 @@
+Parameters: 
+Important parameters:
+
+                tMax       20                  
+                  dt       0.00001             
+                   N       64                  
+             withGWs       false               
+             evolver       VV2                 
+           expansion       true                
+       tOutputInfreq       0.001               
+                  t0       0                   
+     tOutputRareFreq       0.01                
+                 kIR       2.273917            
+         tOutputFreq       0.001               
+             kCutOff       inf                 
+
+
+Other parameters:
+
+           tolerance       -1                  
+       print_headers       false               
+         hdf5Spectra       false               
+           deltaKBin       1                   
+             OccNumb       false               
+    spectraVerbosity       0                   
+          PS_version       1                   
+     fixedBackground       false               
+     initial_momenta       -4.6223426e33 0     
+          outputfile       ./                  
+              lambda       1e-9                
+            baseSeed       911954673           
+             PS_type       1                   
+               input       /home/gladwyn/CLInflation/Modified-cosmolattice/src/models/parameter-files/lphi4InflationHighResPython.in
+       appendToFiles       false               
+ constraint_snapshot       ✖ ✖ ✖ ✖ ✖ ✖ ✖ ✖ ✖ ✖
+     GWprojectorType       1                   
+                   q       0                   
+  initial_amplitudes       5.19866e19 0        
+         tBackupFreq       -1                  
+         tOutputVerb       0.001               
+     energy_snapshot       ✖ ✖ ✖ ✖ ✖ ✖ ✖ ✖ ✖ ✖
+
+The simulation started on the d27 m11 y2025 around h23m44.
+It will be running on a grid of (64,1,1) cores.The simulation finished on the d27 m11 y2025 around h23m59.
+The timer indicates that it ran for 883.728s.
+As it ran on 64 cores, this corresponds to 15.7107 core hours.

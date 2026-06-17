@@ -1,0 +1,47 @@
+Parameters: 
+Important parameters:
+
+                tMax       5000                
+                  dt       0.003               
+                   N       64                  
+             withGWs       false               
+             evolver       VV2                 
+     tOutputRareFreq       10                  
+           expansion       true                
+                 kIR       3                   
+       tOutputInfreq       3                   
+                  t0       0                   
+         tOutputFreq       0.1                 
+             kCutOff       inf                 
+
+
+Other parameters:
+
+          PS_version       1                   
+             PS_type       1                   
+           tolerance       -1                  
+       print_headers       false               
+         hdf5Spectra       false               
+            baseSeed       42                  
+          outputfile       ./                  
+     fixedBackground       false               
+     initial_momenta       -2.16757e+31 0      
+         tBackupFreq       -1                  
+               input       /home/gladwyn/CLInflation/Modified-cosmolattice-pert/src/models/parameter-files/tanh2_matchFig3c.in
+             Lambda4       8.648e63            
+                   q       3.5173400645e5      
+  initial_amplitudes       2.0423e+18 0        
+         tOutputVerb       0.3                 
+                   M       5.964e18            
+     energy_snapshot       ✖ ✖ ✖ ✖ ✖ ✖ ✖ ✖ ✖ ✖
+       appendToFiles       false               
+     GWprojectorType       1                   
+ constraint_snapshot       ✖ ✖ ✖ ✖ ✖ ✖ ✖ ✖ ✖ ✖
+             OccNumb       false               
+    spectraVerbosity       0                   
+           deltaKBin       1                   
+
+The simulation started on the d10 m5 y2026 around h22m53.
+It will be running on a grid of (16,1,1) cores.The simulation finished on the d11 m5 y2026 around h2m17.
+The timer indicates that it ran for 12242.502s.
+As it ran on 16 cores, this corresponds to 54.4111 core hours.

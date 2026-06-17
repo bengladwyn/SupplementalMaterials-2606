@@ -8,7 +8,7 @@ import os
 import sys
 import matplotlib.cm as cm
 import matplotlib.colors as mcolors
-from lphi4Inflation import phi_derivatives, solve_ms_for_k, MS_mode, MS_spectrum, MS_spectrum_CL, ns, plot_background, save_background, calculate_MS_spectrums, solve_ms_for_k_timeseries
+from Analytics.lphi4 import phi_derivatives, solve_ms_for_k, MS_mode, MS_spectrum, MS_spectrum_CL, ns, plot_background, save_background, calculate_MS_spectrums, solve_ms_for_k_timeseries
 
 # Define model
 c2 = 0.03
@@ -56,7 +56,7 @@ def main():
     
     ### --- lphi4 Inflation ---
 
-    os.makedirs('pbh/plots/', exist_ok=True)
+    os.makedirs('pbh_CL/plots/', exist_ok=True)
     Mp = 2.435e18
 
     # Generate values for h between 0 and 2
@@ -81,10 +81,10 @@ def main():
     grad2_V_h_values = V_h_grad2(h_values)
 
     # Save to text file
-    with open("Vh_table.txt", "w") as f:
-        f.write(f"{len(h_values)}\n")
-        for h, V, dV, d2V in zip(h_values, V_h_values, grad_V_h_values, grad2_V_h_values):
-            f.write(f"{h:.16e} {V:.16e} {dV:.16e} {d2V:.16e}\n")
+    #with open("Vh_table.txt", "w") as f:
+    #    f.write(f"{len(h_values)}\n")
+    #    for h, V, dV, d2V in zip(h_values, V_h_values, grad_V_h_values, grad2_V_h_values):
+    #        f.write(f"{h:.16e} {V:.16e} {dV:.16e} {d2V:.16e}\n")
 
     # Get 8th-order polynomial coefficients
     # V(h) approx p[0]*h^8 + p[1]*h^7 ... + p[8]
@@ -121,7 +121,7 @@ def main():
     ax2.grid(True, alpha=0.3)
 
     plt.tight_layout()
-    plt.savefig('pbh/plots/potential_fit_and_residuals.pdf')
+    plt.savefig('pbh_CL/plots/potential_fit_and_residuals.pdf')
     plt.close()
 
     ##########################################
