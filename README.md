@@ -7,7 +7,7 @@ limits of lattice inflation: a cautionary tale* (Barker, Gladwyn, Zell), http://
 Three benchmark models are used throughout, named consistently across `Analytics`, `CLmodels`, `CLPlotting`, `CLOutput` and `ModifiedCLOutput`:
 
 - `lphi4` - slow-roll (SR) case
-- `pbh` - USR model
+- `pbh` - ultra-slow roll (USR) model
 - `tanh2` - preheating/reheating example.
 
 ### Contents
