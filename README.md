@@ -21,4 +21,4 @@ Three benchmark models are used throughout, named consistently across `Analytics
 
 ### CosmoLattice with 1st order perturbations
 
-The `ModifiedCLOutput` data was produced with a modified fork of CosmoLattice that implements the 1st-order metric perturbations in the evolution of the fields. That fork is still being prepared for release; in the meantime, its output is already included here under `ModifiedCLOutput`.
+The `ModifiedCLOutput` data was produced with a version of CosmoLattice that implements the 1st-order metric perturbations in the evolution of the fields. That fork is available here: https://github.com/bengladwyn/cosmolattice#, and its output is already included here under `ModifiedCLOutput`.
